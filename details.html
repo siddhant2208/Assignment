@@ -12,7 +12,6 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background-color: black;
       color: white;
     }
     
@@ -32,37 +31,43 @@
       bottom: 0;
       padding: 10px 0;
     }
+    header {
+  margin-top: 0;
+}
   </style>
   <title>CG Infinity</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-dark">
-      <div class="container-fluid">
-       <a href="index.html"><img src="photos/CG-Infinity-Logo.png" width="100px" height="30px"></a> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #f4f5f7;" class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #f4f5f7;" class="nav-link" href="#">Services</a>
-            </li>
 
-          </ul>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-white rounded">
+        <div class="container-fluid">
+          <img src="photos/CG-Infinity-Logo.png" width="100px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link" href="login.html">Logout</a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+      <!-- Navbar -->
+ 
   </header>
-  <main>
+<h4 style="border-radius: 10px; text-align: center;color: black;background-color:rgb(255, 217, 49); width: 100vh; margin-left: 301px">
+  Employ Page
+</h4>  <main>
     <section class="vh-100" style="background-color: #f4f5f7;">
-      <h2  class="heading " style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: darkorange; text-align:center;position: relative;margin-top: 3px;background-color: darkslategray;">Employ details</h2>
-       
-        
       <div class="container py-2 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col col-lg-6 mb-4 mb-lg-1">
@@ -70,8 +75,8 @@
                 <div class="row g-0">
                   <div class="col-md-4 gradient-custom text-center text-white"
                     style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
-                      alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                    <img  src="photos/sid.png" 
+                      alt="Avatar" class="img-fluid my-5" style="width: 80px; border-radius: 10px;" />
                     <h5>Siddhant Mishra</h5>
                     <p>Web Designer</p>
                     <i class="far fa-edit mb-5"></i>
@@ -115,17 +120,22 @@
             
           </div>
         </div>
-      </section>
 
+      </section>
+<h4 style="border-radius: 10px; text-align: center;color:white;background-color:black; width: 100vh; margin-left: 301px">
+  Employ Details
+</h4>
       <div class="album py-5 bg-light">
         <div class="container">
 
           <div class="row">
+            
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"  src="photos/photo12.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/vidhan.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h4>Vidhan Tiwari</h4>
+                  <p class="card-text">Algorithms and Data Structures: Proficiency in algorithms and data structures is essential for developing efficient and scalable </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -138,23 +148,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo11.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/sana.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo10.jpg" style="border-radius: 5px;height: 350px;">
-                <div class="card-body">
+                  <h4>Sana Gupta</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -169,8 +165,9 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo9.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/sanchit.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Sanchit Arora</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -184,8 +181,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo8.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/jashan.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Jashandeep Singla</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -199,8 +197,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo7.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/boo.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Bhoomika Mittal</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -215,8 +214,9 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo6.jpg" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/aashna.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Ashna Juyal</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -230,8 +230,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/photo5.webp" style="border-radius: 5px;height: 350px;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"  src="photos/Screenshot 2023-07-03 100216.png" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Divanshi Mahajan</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
@@ -245,8 +246,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="photos/photo4.jpg" style="border-radius: 5px;height: 50%;">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="photos/photo12.jpg" style="border-radius: 5px;height: 350px;">
                 <div class="card-body">
+                  <h4>Amit Kumar</h4>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
